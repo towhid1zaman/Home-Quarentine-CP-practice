@@ -45,10 +45,10 @@ int main(){
             for(ll i = 2; i*i<=x; i++){
                 ll cnt = 0;
                 while(x%i==0){
-                    cnt++;
+                    cnt++; //power of prime factor
                     x/=i;
                 }
-                gcd = __gcd(gcd,cnt);
+                gcd = __gcd(gcd,cnt); // gcd of prime factors power
             }
             if(x>1){
                 gcd = __gcd(gcd,1ll);
