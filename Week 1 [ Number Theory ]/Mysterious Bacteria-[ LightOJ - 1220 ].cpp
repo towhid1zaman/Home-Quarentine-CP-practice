@@ -88,6 +88,6 @@ return 0;
      but power even hoile seta positive hoye jabe, so
      we can write -64 = (-4)^3
      
-     just gcd theke 2 er multiole gula bad
+     just gcd theke 2 er multiple gula bad
     
 */
