@@ -51,7 +51,7 @@ int main(){
 return 0;
 }
 /*
-    this same same problem as the previous one, 
+    this is the same problem as the previous one, 
     in the previous problem we did at most i+1 and i+2 jump
     but in this problem we can jump at most i+k jump
     means , i+1, i+2.....i+k jump
