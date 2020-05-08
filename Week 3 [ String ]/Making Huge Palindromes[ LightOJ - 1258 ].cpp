@@ -68,4 +68,25 @@ int main(){
 
 return 0;
 }
+/*
+Consider the 4th test case
+S = anncbaaababaaa
+Let
+P = aaababaaabcnna (reverse of S)
+Now look how can we construct the shortest palindrome by adding character to the right of S,
+with the help of P
+S : anncbaaababaaa|||||
+P : |||||aaababaaabcnna
+Ans:anncbaaababaaabcnna
+
+So all we need to do is search for the longest prefix of P in S. We can do this by using KMP.
+
+then simply 2*n - match is the result
+
+
+
+
+
+
+*/
 
